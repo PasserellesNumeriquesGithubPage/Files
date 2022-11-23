@@ -1,0 +1,154 @@
+ 			VARIABLES
+//Add your code here
+
+myName = "Thriezia May";
+myAge = 20;
+
+// Don't edit the code below here!
+section.innerHTML = ' ';
+let para1 = document.createElement('p');
+para1.textContent = myName;
+let para2 = document.createElement('p');
+para2.textContent = myAge;
+section.appendChild(para1);
+section.appendChild(para2);
+
+-----------------------------------------------------
+// Add your code here
+
+const myName = 'Default';  //MyAnswer::    let myName ='Default';
+myName = 'Chris';
+let myAge = '42';	   //MyAnswer::    let myAge = 42;
+
+// Don't edit the code below here!
+section.innerHTML = ' ';
+let para1 = document.createElement('p');
+let para2 = document.createElement('p');
+para1.textContent = myName;
+para2.textContent = `In 20 years, I will be ${myAge + 20}`;
+section.appendChild(para1);
+section.appendChild(para2);
+
+--------------------------------------------------------
+			NUMBERS
+
+/ Statement 1: The elephant weights less than the mouse
+let eleWeight = 1000;
+let mouseWeight = 2;
+// Statement 2: The Ostrich is taller than the duck
+let ostrichHeight = 2;
+let duckHeight = 0.3;
+// Statement 3: The two passwords match
+let pwd1 = 'stromboli';
+let pwd2 = 'stROmBoLi'
+
+// Add your code here
+
+let weightComparison;
+if ( eleWeight < mouseWeight ) 
+{weightComparison = " ";}
+
+let heightComparison;
+if (ostrichHeight > duckHeight)
+{heightComparison = " ";}
+
+let pwdMatch;
+if ( pwd1 === pwd2)
+{pwdMatch = " ";
+
+// Don't edit the code below here!
+section.innerHTML = ' ';
+let para1 = document.createElement('p');
+let para2 = document.createElement('p');
+let para3 = document.createElement('p');
+let weightTest = weightComparison ? 'True — elephants weight less than mice!?' : 'False — of course an elephant is heavier than a mouse!';
+let heightTest = heightComparison ? 'True — an ostrich is indeed taller than a duck!' : 'False — apparently a duck is taller than an ostrich!?';
+let pwdTest = pwdMatch ? 'True — the passwords match.' : 'False — the passwords do not match; please check them';
+para1.textContent = weightTest;
+section.appendChild(para1);
+
+----------------------------------------------------------------
+
+/ Final result should be 10.42
+
+// Add/update your code here
+
+let result = 7 + 13 / 9 + 7;
+let result2 = 100 / 2 * 6;
+
+result *= result2;
+let finalResult = result.toFixed(2);
+let finalNumber = Number(finalResult);
+
+// Don't edit the code below here!
+section.innerHTML = ' ';
+let para1 = document.createElement('p');
+para1.textContent = `Your finalResult is ${ finalResult }`;
+let para2 = document.createElement('p');
+let finalNumberCheck = isNaN(finalNumber) === false ? 'finalNumber is a number type. Well done!' : 
+`Ooops! finalNumber is not a number.`;
+para2.textContent = finalNumberCheck;
+section.appendChild(para1);
+section.appendChild(para2);
+
+----------------------------------------------------------------------
+			STRINGS
+
+let quote = 'I do not like green eggs and ham. I do not like them, Sam-I-Am.';
+let substring = 'green eggs and ham';
+
+
+// Add your code here
+
+let quoteLength = quote.length;
+let index = quote.indexOf(substring);
+let revisedQoute = quote.slice(0,33);
+
+
+
+// Don't edit the code below here!
+section.innerHTML = ' ';
+let para1 = document.createElement('p');
+para1.textContent = `The quote is ${ quoteLength } characters long.`;
+let para2 = document.createElement('p');
+para2.textContent = revisedQuote;
+section.appendChild(para1);
+section.appendChild(para2);
+
+-------------------------------------------------------------------------
+
+let quote = 'I dO nOT lIke gREen eGgS anD HAM';
+
+// Add your code here
+
+let lowerCase = qoute.toLowerCase();
+let firstChar = lowerCase[0];
+let fixedQuote = lowerCase.replace(firstChar,firstChar.toUpperCase()).replace('green eggs and ham','Oily foods and eggplant');
+let finalQuote = fixedQuote + ".";
+
+// Don't edit the code below here!
+section.innerHTML = ' ';
+let para1 = document.createElement('p');
+para1.textContent = fixedQuote;
+let para2 = document.createElement('p');
+para2.textContent = finalQuote;
+section.appendChild(para1);
+section.appendChild(para2);
+
+-------------------------------------------------------------------------
+
+			ARRAYS
+// Add your code here
+
+myArray = ["Badminton","Reading","Sketching"];
+alert( myArray[0] ); // Badminton
+alert( myArray[1] ); // Reading
+
+myArray[0] = "Hobby";
+
+// Don't edit the code below here!
+section.innerHTML = ' ';
+let para1 = document.createElement('p');
+para1.textContent = `Array: ${ myArray }`;
+section.appendChild(para1);
+

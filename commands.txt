@@ -1,0 +1,34 @@
+git init
+git remote add origin or git add remote origin (im not sure dito)
+git config
+git status
+git add
+git status
+git push origin (--force if needed)
+
+if cloning
+git config
+git status
+git add
+git status
+git push origin (--force if needed)
+
+
+merge in GIT BASH
+
+Start a new feature
+git checkout -b new-feature main
+# Edit some files
+git add <file>
+git commit -m "Start a feature"
+# Edit some files
+git add <file>
+git commit -m "Finish a feature"
+# Develop the main branch
+git checkout main
+# Edit some files
+git add <file>
+git commit -m "Make some super-stable changes to main"
+# Merge in the new-feature branch
+git merge new-feature
+git branch -d new-feature

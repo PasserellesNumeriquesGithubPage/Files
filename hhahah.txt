@@ -1,0 +1,15 @@
+1st Clone repository
+2nd Checkout to a branch
+3rd Pull changes
+4th Make the changes
+5th Commit the changes
+6th Push the changes
+7th Merge the branch
+
+
+1st Checkout develop branch.
+2nd Create branch with your name
+3rd Profile Page
+4th Add link to profile
+5th Commit and Push
+6th Merge to develop

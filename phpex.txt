@@ -1,0 +1,49 @@
+<?php
+function check($x, $y) 
+{
+    return $x == $y ? ($x + $y)*3 : $x + $y;
+}
+echo test(1, 2)."\n";
+
+<?php
+function check($x, $y) 
+{
+
+return ($x == 30) || ($y == 30) || ($x + $y == 30);
+
+}
+echo test(1, 2)."\n";
+
+<table width="300px" cellspacing="0px" cellpadding="0px" border="1px">
+ 
+      <?php
+      for($row=1;$row<=8;$row++)
+      {
+          echo "<tr>";
+          for($col=1;$col<=8;$col++)
+          {
+          $total=$row+$col;
+          if($total%2==0)
+          {
+          echo "<td height=30px width=30px bgcolor=white></td>";
+          }
+          else
+          {
+          echo "<td height=30px width=30px bgcolor=black></td>";
+          }
+          }
+          echo "</tr>";
+    }
+          ?>
+  </table>
+
+<?php
+function check_palindrome($string) 
+{
+  if ($string == strrev($string))
+      return 1;
+  else
+	  return 0;
+}
+echo check_palindrome('madam')."\n";
+?>
